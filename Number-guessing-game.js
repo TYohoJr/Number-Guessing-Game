@@ -20,5 +20,3 @@ function numGuesser() {
 }
 
 numGuesser();
-
-//test
