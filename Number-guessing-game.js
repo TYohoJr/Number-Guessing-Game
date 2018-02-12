@@ -1,11 +1,10 @@
 // # Number-Guessing-Game
 // Pre-work code for a random number guessing game
-
 var ranNum = Math.floor(Math.random() * 50) + 1;
-var i = 0;
 var userGuess;
 
 function numGuesser() {
+  var i = 0;
   while (i < 10) {
     userGuess = prompt("Guess the number. Number is 1 throuh 50. Guesses so far: " + i);
     if (userGuess == ranNum) {
